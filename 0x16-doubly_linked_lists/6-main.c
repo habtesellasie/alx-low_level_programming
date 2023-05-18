@@ -21,8 +21,8 @@ int main(void)
     add_dnodeint_end(&hd, 98);
     add_dnodeint_end(&hd, 402);
     add_dnodeint_end(&hd, 1024);
-    summ = summ_dlistint(hd);
-    printf("summ = %d\n", summ);
+    summ = sum_dlistint(hd);
+    printf("sum = %d\n", summ);
     free_dlistint(hd);
     hd = NULL;
     return (EXIT_SUCCESS);
