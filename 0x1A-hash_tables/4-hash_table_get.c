@@ -1,9 +1,8 @@
 #include "hash_tables.h"
 /**
- * hash_table_get - retrieves a value associated with a key.
+ * hash_table_get - retrieves a value associated with a key
  * @key: key can not be an empty string
- * @ht: the hash table you want to add or update the key/value to
- *
+ * @ht: the hash table you want to add or update the key to
  * Return: the value associated with the element, or NULL
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
